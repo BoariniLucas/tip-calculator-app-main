@@ -1,0 +1,36 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(172, 67%, 80%);
+}
+
+.calcTitle p {
+    word-wrap: break-word;
+    letter-spacing: 5px;
+    width: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin: 2em auto;
+}
+
+.bodyCalc {
+    display: flex;
+    border-radius: 15px;
+    justify-content: right;
+    width: 800px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 30px auto auto;
+}
+
+.resultCalc {
+    border-radius: 15px;
+    width: 350px;
+    background-color: hsl(186, 14%, 43%);
+    margin: 1.5em 1.5em 1.5em;
+}
+
+.attribution {
+    text-align: center;
+    margin: 100px auto;
+}
