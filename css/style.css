@@ -3,7 +3,8 @@ body {
     background-color: hsl(172, 67%, 80%);
 }
 
-.calcTitle p {
+h1 {
+    font-size: 16px;
     word-wrap: break-word;
     letter-spacing: 5px;
     width: 60px;
@@ -13,22 +14,53 @@ body {
     margin: 2em auto;
 }
 
-.bodyCalc {
-    display: flex;
+h2 {
+    display: grid;
+    font-size: 16px;
+}
+
+input {
+    display: grid;
+    width: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px;
     border-radius: 15px;
-    justify-content: right;
-    width: 800px;
     height: 400px;
+    width: 810px;
     background-color: hsl(0, 0%, 100%);
     margin: 30px auto auto;
 }
 
+.bodyCalc {
+    border-radius: 15px;
+    height: 380px;
+    width: 390px;
+    margin: 10px;
+}
+
 .resultCalc {
     border-radius: 15px;
-    width: 350px;
+    height: 380px;
+    width: 390px;
+    margin: 10px;
     background-color: hsl(186, 14%, 43%);
-    margin: 1.5em 1.5em 1.5em;
 }
+
+
+.bill {
+    width: 350px;
+    margin: 0;
+}
+
+.tipButtons {
+    width: 350px;
+    margin: 0;
+}
+
+
 
 .attribution {
     text-align: center;
