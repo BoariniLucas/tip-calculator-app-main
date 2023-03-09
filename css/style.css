@@ -18,6 +18,25 @@ h2 {
     display: grid;
     font-size: 16px;
     margin-bottom: 5px;
+    color: hsl(180, 5%, 41%);
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.inputBar {
+    display: grid;
+    text-align: right;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 330px;
+    padding: 0px 15px;
+    color: hsl(182, 13%, 67%);
+    background-color: hsl(202, 50%, 96%);
 }
 
 .grid-container {
@@ -45,7 +64,6 @@ h2 {
     background-color: hsl(186, 14%, 43%);
 }
 
-
 .bill {
     width: 350px;
     margin: 2em auto;
@@ -58,16 +76,20 @@ h2 {
 
 .tip-buttons button {
     font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    color: hsl(0, 0%, 100%);
     border: none;
     border-radius: 5px;
     width: 100px;
     height: 35px;
     margin: 5px 0px;
+    background-color: hsl(183, 100%, 14%);
 }
 
 .tip-buttons input {
     display:inline-block;
     vertical-align: bottom;
+    text-align: center;
     height: 35px;
     width: 100px;
     padding: 2px;
@@ -80,14 +102,12 @@ h2 {
     margin: 3em auto 0px;
 }
 
-.inputBar {
-    display: grid;
-    font-size: 24px;
-    border: none;
-    border-radius: 5px;
-    height: 35px;
-    width: 330px;
-    background-color: hsl(189, 41%, 97%);
+.tip-person {
+    display: inline-block;
+}
+
+.tip-person-value {
+    display: inline-block;
 }
 
 .attribution {
