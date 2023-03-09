@@ -14,82 +14,67 @@
 
   </head>
   <body>
+    <header>
+      <h1>splitter</h1>
+    </header>    
 
-    <h1>splitter</h1>
-
-    <div class="grid-container">
-      <div class="bodyCalc">
+    <main id="calcTip" class="grid-container">
+      <section class="bodyCalc">
         <div class="bill">
           <h2>Bill</h2>
-          <input>
+          <input type="number" id="billValue"/>
         </div>
 
-        <div class="tip-buttons">
+        <div class="tip-buttons" id="tipButtons">
           <h2>Select Tip %</h2>
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
-          <input type="text">
+          <button id="btnTip5">5%</button>
+					<button id="btnTip10">10%</button>
+					<button id="btnTip15">15%</button>
+					<button id="btnTip25">25%</button>
+					<button id="btnTip50">50%</button>
+          <input type="number" placeholder="Custom" id="customTip">
         </div>
 
         <div class="people-number">
           <h2>Number of People</h2>
-          <input type="text">
+          <input type="number" id="numberPeople">
         </div>
 
-      </div>
+      </section>
 
-      <div class="resultCalc">
-        <h2>Tip Amount</h2>
-        <p>/ person</p>
+      <section class="resultCalc">
+        <div>
+          <h2>
+            Tip Amount <br> / person
+          </h2>
 
-        <output></output>
-        
-        <h2>Total</h2>
-        <p>/ person</p>
+          <div>
+            <img src="images/icon-dollar.svg">0.00
+          </div>
+        </div> 
 
-        <output></output>
+        <div>
+          <h2>
+            Total <br> / person
+          </h2>
+          
+          <div>
+            <img src="images/icon-dollar.svg">0.00
+          </div>
+        </div> 
 
-        <button>Reset</button>
+        <input type="submit" value="Reset" id="btnReset">
 
-      </div>
-    </div>
+      </section>
+    </main>
 
-
-<!--  
-
-
-
-
-    Bill
-
-    Select Tip %
-    5%
-    10%
-    15%
-    25%
-    50%
-    Custom
-
-    Number of People
-
-    Tip Amount
-    / person
-
-    Total
-    / person
-
-    Reset
-
-    -->
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/boarinilucas">Lucas Boarini</a>.
-    </div>
-
-    <script type="text/javascript" src="js/index.js"></script>
+    
+      <footer>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/boarinilucas">Lucas Boarini</a>.
+        </div>
+      </footer>
+    <script type="text/javascript" src="js/script.js" defer></script>
   </body>
 </html>
