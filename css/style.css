@@ -17,11 +17,7 @@ h1 {
 h2 {
     display: grid;
     font-size: 16px;
-}
-
-input {
-    display: grid;
-    width: auto;
+    margin-bottom: 5px;
 }
 
 .grid-container {
@@ -52,15 +48,47 @@ input {
 
 .bill {
     width: 350px;
-    margin: 0;
+    margin: 2em auto;
 }
 
-.tipButtons {
+.tip-buttons {    
     width: 350px;
-    margin: 0;
+    margin: 2em auto;
 }
 
+.tip-buttons button {
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin: 5px 0px;
+}
 
+.tip-buttons input {
+    display:inline-block;
+    vertical-align: bottom;
+    height: 35px;
+    width: 100px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.people-number {
+    vertical-align: bottom;
+    width: 350px;
+    margin: 3em auto 0px;
+}
+
+.inputBar {
+    display: grid;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 330px;
+    background-color: hsl(189, 41%, 97%);
+}
 
 .attribution {
     text-align: center;
