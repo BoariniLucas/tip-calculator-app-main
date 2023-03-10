@@ -1,0 +1,13 @@
+@media screen and (max-width: 375px) {
+    .grid-container {
+      display:inline;
+      text-align: center;
+      grid-template-columns: auto auto auto;
+      border-radius: 0px;
+      height: 667px;
+      width: 375px;
+      box-shadow: none;
+      background-color: hsl(0, 0%, 100%);
+      margin: 0px;
+    }
+}

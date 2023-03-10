@@ -26,6 +26,12 @@ p {
     color: hsl(180, 5%, 41%);
 }
 
+span {
+    display: inline-block;
+    margin-left: 55px;
+    color: red;
+}
+
 .inputBar {
     display: grid;
     text-align: right;
@@ -36,13 +42,18 @@ p {
     height: 35px;
     width: 330px;
     padding: 0px 15px;
-    color: hsl(183, 100%, 14%);;
-    background-color: hsl(202, 50%, 96%);
+    color: hsl(183, 18%, 66%);
 }
 
 .inputBar:hover {
     border: solid;
     border-color: hsl(172, 31%, 52%);
+}
+
+.inputBar:focus {
+    border: solid hsl(172, 31%, 52%) !important;
+    outline-offset: 0px !important;
+    outline: none !important;
 }
 
 .grid-container {
@@ -73,6 +84,11 @@ p {
 .bill {
     width: 350px;
     margin: 2em auto;
+}
+
+.bill input {
+    background: url(../images/icon-dollar.svg) no-repeat scroll 10px 10px;  
+    background-color: hsl(202, 50%, 96%);  
 }
 
 .tip-buttons {    
@@ -111,6 +127,15 @@ p {
     vertical-align: bottom;
     width: 350px;
     margin: 2em auto 0px;
+}
+
+.people-number h2 {
+    display: inline-block;
+}
+
+.people-number input {
+    background: url(../images/icon-person.svg) no-repeat scroll 10px 10px;
+    background-color: hsl(202, 50%, 96%);  
 }
 
 .tip-person {
@@ -172,7 +197,10 @@ p {
     height: 40px;
     margin: 25px 2rem 0px;
     color: hsl(183, 100%, 14%);
-    background-color: hsl(171, 67%, 45%);
+    background-color: hsl(183, 78%, 23%);
+
+            /* cor abaixo ativa assim que tem informação nos inputs */
+            /*   background-color: hsl(171, 67%, 45%);  */
 }  
 
 .button-subimit:hover {
