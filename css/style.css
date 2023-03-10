@@ -1,17 +1,11 @@
 body {
     font-family: 'Space Mono', monospace;
-    background-color: hsl(172, 67%, 80%);
+    background-color: hsl(185, 41%, 83%);
 }
 
-h1 {
-    font-size: 16px;
-    word-wrap: break-word;
-    letter-spacing: 5px;
-    width: 60px;
+header {
     text-align: center;
-    text-transform: uppercase;
-    padding-top: 30px;
-    margin: 2em auto;
+    margin: 3em auto;   
 }
 
 h2 {
@@ -25,6 +19,13 @@ input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
+p {
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 16px;
+    color: hsl(180, 5%, 41%);
+}
+
 .inputBar {
     display: grid;
     text-align: right;
@@ -35,8 +36,13 @@ input[type=number]::-webkit-inner-spin-button {
     height: 35px;
     width: 330px;
     padding: 0px 15px;
-    color: hsl(182, 13%, 67%);
+    color: hsl(183, 100%, 14%);;
     background-color: hsl(202, 50%, 96%);
+}
+
+.inputBar:hover {
+    border: solid;
+    border-color: hsl(172, 31%, 52%);
 }
 
 .grid-container {
@@ -61,7 +67,7 @@ input[type=number]::-webkit-inner-spin-button {
     height: 380px;
     width: 390px;
     margin: 10px;
-    background-color: hsl(186, 14%, 43%);
+    background-color: hsl(183, 100%, 14%);
 }
 
 .bill {
@@ -81,9 +87,14 @@ input[type=number]::-webkit-inner-spin-button {
     border: none;
     border-radius: 5px;
     width: 100px;
-    height: 35px;
+    height: 40px;
     margin: 5px 0px;
     background-color: hsl(183, 100%, 14%);
+}
+
+.tip-buttons button:hover {
+    color: hsl(183, 100%, 14%);
+    background-color: hsl(173, 59%, 76%);
 }
 
 .tip-buttons input {
@@ -91,7 +102,7 @@ input[type=number]::-webkit-inner-spin-button {
     vertical-align: bottom;
     text-align: center;
     height: 35px;
-    width: 100px;
+    width: 96px;
     padding: 2px;
     margin-bottom: 5px;
 }
@@ -99,15 +110,73 @@ input[type=number]::-webkit-inner-spin-button {
 .people-number {
     vertical-align: bottom;
     width: 350px;
-    margin: 3em auto 0px;
+    margin: 2em auto 0px;
 }
 
 .tip-person {
+    text-align: left;
+    margin: 2em;
+}
+
+.total-person {
+    text-align: left;
+    margin: 2em;
+}
+
+.tip-person h2 {
     display: inline-block;
+    font-size: 13px;
+    text-align: left;
+    margin-right: 1em;
+    color: hsl(100, 100%, 100%);
+}
+
+.total-person h2 {
+    display: inline-block;
+    font-size: 13px;
+    text-align: left;
+    margin-right: 1em;
+    color: hsl(100, 100%, 100%);
 }
 
 .tip-person-value {
     display: inline-block;
+    font-size: 55px;
+    text-align: right;  
+    padding-left: 4rem;
+    color: hsl(171, 67%, 45%);
+}
+
+.total-person-value {
+    display: inline-block;
+    font-size: 55px;
+    text-align: right; 
+    color: hsl(171, 67%, 45%);
+    padding-left: 5rem;
+}
+
+.tip-person-value img {
+    width: 20px;
+}
+
+.total-person-value img {
+    width: 20px;
+}
+
+.button-subimit {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 326px;
+    height: 40px;
+    margin: 25px 2rem 0px;
+    color: hsl(183, 100%, 14%);
+    background-color: hsl(171, 67%, 45%);
+}  
+
+.button-subimit:hover {
+    background-color: hsl(173, 59%, 76%);
 }
 
 .attribution {
