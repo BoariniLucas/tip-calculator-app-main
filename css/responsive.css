@@ -1,13 +1,58 @@
 @media screen and (max-width: 375px) {
-    .grid-container {
-      display:inline;
+  .grid-container {
+    display:list-item;
+    grid-template-columns: 375px 0px;
+    grid-template-rows: 400px 400px;
+    width: auto;
+    margin: 0px 0px;
+  }
+
+  header {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  boby {
+    margin: 0px;
+  }
+
+  span {
+    margin-left: 0px;
+  }
+
+    
+  .inputBar {
+    width: 300px;
+    margin-top: 5px;
+    padding: 0px 0px;
+  }
+
+  .bodyCalc {
+    border-radius: 20px;
+    height: 500px;
+    width: 375;
+    margin: 0px;
+  }
+
+  .resultCalc {
+    width: 375px;
+    margin: 0px;
+  }
+
+  .tip-buttons {    
+    width: 300px;
+    margin: 0px auto;
+  }
+
+
+  .button-subimit {
+    width: 290px;
+    margin: 0px 0px 0px;
+  }  
+  
+  .attribution {
       text-align: center;
-      grid-template-columns: auto auto auto;
-      border-radius: 0px;
-      height: 667px;
-      width: 375px;
-      box-shadow: none;
-      background-color: hsl(0, 0%, 100%);
-      margin: 0px;
-    }
+      margin: 0px auto;
+  }
 }
+
