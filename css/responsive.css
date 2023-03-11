@@ -1,10 +1,11 @@
 @media screen and (max-width: 375px) {
   .grid-container {
     display:list-item;
-    grid-template-columns: 375px 0px;
-    grid-template-rows: 400px 400px;
-    width: auto;
-    margin: 0px 0px;
+    grid-template-columns: 350px 0px;
+    grid-template-rows: 800px;
+    height: 900px;
+    width: 375px;
+    margin: 0px 0px 0px;
   }
 
   header {
@@ -13,6 +14,7 @@
   }
 
   boby {
+    position: 0px;
     margin: 0px;
   }
 
@@ -20,34 +22,77 @@
     margin-left: 0px;
   }
 
-    
+  /* Classes */
+
   .inputBar {
-    width: 300px;
-    margin-top: 5px;
+
+    width: 343px;
+    margin:  5px 0px;
     padding: 0px 0px;
+  }
+
+  .bill {
+    width: auto;
+    padding: 1em 1em;;
   }
 
   .bodyCalc {
     border-radius: 20px;
-    height: 500px;
-    width: 375;
-    margin: 0px;
-  }
-
-  .resultCalc {
+    height: 430px;
     width: 375px;
     margin: 0px;
   }
 
-  .tip-buttons {    
-    width: 300px;
-    margin: 0px auto;
+  .resultCalc {
+    width: 330px;
+    height: 280px;
+    margin: 10px auto;
+  }
+
+  .tip-buttons {  
+    text-align: center;
+    align-items: center;  
+    width: auto;    
+    padding: 1em 1em;
+  }
+
+  .tip-buttons h2 {
+    text-align: left;
+  }
+
+  .tip-buttons button {
+    width: 150px;
+  }
+
+  .tip-buttons input {
+    width: 150px;
+  }
+
+  .tip-person {
+    padding: 1em 1em;
+    margin: 0px;
+  }
+
+  .tip-person-value {
+    font-size: 45px;
+    padding-left: 4rem;
+  }
+
+  .total-person {
+    padding: 1em 1em;
+    margin: 0px;
+  }
+
+  .total-person-value {
+    font-size: 45px;
+    padding-left: 5rem;
   }
 
 
   .button-subimit {
+    text-align: center;
     width: 290px;
-    margin: 0px 0px 0px;
+    margin: 0px 20px;
   }  
   
   .attribution {
