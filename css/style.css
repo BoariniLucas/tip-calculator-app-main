@@ -27,9 +27,9 @@ p {
 }
 
 span {
-    display: inline-block;
+    display: none;
     margin-left: 55px;
-    color: red;
+    color: hsl(12, 52%, 59%);
 }
 
 .inputBar {
