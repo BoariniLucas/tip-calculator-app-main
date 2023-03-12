@@ -91,7 +91,7 @@ span {
 }
 
 .bill input {
-    background: url(../assets/images/icon-dollar.svg) no-repeat scroll 10px 10px;  
+    background: url(../images/icon-dollar.svg) no-repeat scroll 10px 10px;  
     background-color: hsl(202, 50%, 96%);  
 }
 
@@ -138,7 +138,7 @@ span {
 }
 
 .people-number input {
-    background: url(../assets/images/icon-person.svg) no-repeat scroll 10px 10px;
+    background: url(../images/icon-person.svg) no-repeat scroll 10px 10px;
     background-color: hsl(202, 50%, 96%);  
 }
 

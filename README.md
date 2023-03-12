@@ -1,53 +1,35 @@
-# Frontend Mentor - Tip calculator app solution
+# Tip calculator app solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Neste projeto é desenvolvido uma calculadora de gorjetas e divisão da conta, com o objetivo de dividir o valor da conta e o da gorjeta de forma igual para a quantidade de pessoas. O usuário deve digitar o valor total da conta e qual seria a porcentagem da gorjeta. Assim que digitadas essas informações a aplicação faz a divisão de forma correta e exibe o valor total da gorjeta e o valor  que cada pessoa deve pagar. Também tem a opção para colocar a porcentagem de gorjeta desejada caso não tenha nos botões existentes.
 
 ## Table of contents
 
-- [The challenge](#the-challenge)
-- [My process](#my-process)
-- [Built with](#built-with)
-- [What I learned](#what-i-learned)
-- [Useful resources](#useful-resources)
-- [Author](#author)
+- [Meu processo](#meu-processo)
+- [Ferramenta utilizadas](#ferramentas-utilizadas)
+- [O que aprendi](#O-que-aprendi)
+- [Autor](#autor)
 
-### The challenge
 
-Users should be able to:
+### Meu processo
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Calculate the correct tip and total cost of the bill per person
+- [X] Criar página de navegação do aplicativo
+- [X] Estilizar design com CSS
+- [X] Adequar design para ficar respondivo para mobile
+- [X] Criar arquivo JavaScript para realização dos cálculos
+- [X] Fazer integração do JavaScript com o HTML
 
-## My process
+### Ferramenta utilizadas
 
-- [ ] Montar escrutura básica da calculadora
-- [ ] Adicionar componentes da calculadora
-- [ ] Fazer design da calculadora
-- [ ] Criar arquivo JS
-- [ ] Criar lógia para realicar os cálculos
-
-### Built with
-
-- Semantic HTML5 markup
+- HTML5
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
+### O que aprendi
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+No desenvolvimento desse projeto adquiri bastante conhecimento na comunicação entre os arquivos JavaScript, HTML e CSS, esse era um dos pontos que estava buscando melhorias. Esse projeto fez com que eu procurasse e conhecesse bastante ferramentas do JavaScript e também do DOM para conseguir fazer essa comunicação entre os arquivos.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-## Author
+## Autor
 
 - Website - [Lucas Boarini](https://github.com/BoariniLucas)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
