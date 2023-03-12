@@ -4,10 +4,10 @@
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" type="image/png" sizes="32x32" href=".assets/images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
@@ -17,14 +17,14 @@
   </head>
   <body>
     <header>
-      <img src="./images/logo.svg" class="logo">
+      <img src="./assets/images/logo.svg" class="logo">
     </header>    
 
     <main id="calcTip" class="grid-container">
       <section class="bodyCalc">
         <div class="bill">
           <h2>Bill</h2>
-          <input type="number" class="inputBar" id="billValue" value="0"/>
+          <input type="number" class="inputBar" id="billValue" placeholder="0"/>
         </div>
 
         <div class="tip-buttons" id="tipButtons">
@@ -39,7 +39,7 @@
 
         <div class="people-number">
           <h2>Number of People</h2> <span id="text-warning">Can't be zero</span>
-          <input type="number" class="inputBar" id="numberPeople" value="0">
+          <input type="number" class="inputBar" id="numberPeople" placeholder="0">
         </div>
 
       </section>
@@ -52,7 +52,7 @@
             </h2>
 
             <div class="tip-person-value">
-              <img src="images/icon-dollar.svg">0.00
+              <img src="assets/images/icon-dollar.svg"><label id="inner-tip-value">0.00</label>
             </div>
         </div> 
 
@@ -62,11 +62,11 @@
             </h2>
             
             <div class="total-person-value">
-              <img src="images/icon-dollar.svg">0.00
+              <img src="assets/images/icon-dollar.svg"><label id="inner-person-value">0.00</label>
             </div>
         </div> 
 
-        <input type="submit" value="RESET" id="btnReset" class="button-subimit">
+        <input type="submit" value="RESET" id="btnReset" class="button-subimit" disabled>
 
       </section>
     </main>
@@ -78,6 +78,6 @@
           Coded by <a href="https://github.com/boarinilucas">Lucas Boarini</a>.
         </div>
       </footer>
-    <script type="text/javascript" src="js/script.js" defer></script>
+    <script type="text/javascript" src="assets/js/script.js" defer></script>
   </body>
 </html>
